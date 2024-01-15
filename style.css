@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#gameBox {
+    position: relative;
+}
+
+#score {
+    color: white;
+}
+
+#tetrisLogo {
+    position: absolute;
+    height: 90px;
+    margin-bottom: 30px;
+    left: 7%;
+}
+
+#canvas1 {
+    margin-top: 100px;
+    height: 600px;
+    width: 300px;
+    border: 4px white solid;
+}
